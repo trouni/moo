@@ -7,9 +7,6 @@ from os.path import split
 import datetime
 import getpass
 
-pd.set_option('display.width', 200)
-
-
 def try_me():
     print("\033[92m_________________{:>65}")
     print("")
