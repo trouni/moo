@@ -4,7 +4,6 @@
 """
 
 from os.path import split
-import pandas as pd
 import datetime
 import getpass
 
