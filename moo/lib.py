@@ -12,11 +12,11 @@ pd.set_option('display.width', 200)
 
 
 def try_me():
-    print("{:>65}".format(f'_________________'))
-    print("")
-    print(moo())
-    print("{:>65}".format(f'___________  ____'))
-    print("{:>65}".format(f'           \/    '))
+    print(color("{:>65}".format(f'_________________'), Colors.green))
+    print(color("", Colors.green))
+    print(color(moo(), Colors.green))
+    print(color("{:>65}".format(f'___________  ____'), Colors.green))
+    print(color("{:>65}".format(f'           \/    '), Colors.green))
     print("""
                                  .a@@@@@a.     ,a@@@@@@@@a,     .a@@@@@a. 
                               .@@@@@@@@@@@a,a@@@@@@@@@@@@@@a,a@@@@@@@@@@@. 
