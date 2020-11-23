@@ -7,4 +7,3 @@ flake8
 black
 python-gitlab
 twine
-getpass
