@@ -4,15 +4,17 @@
 """
 
 from os.path import split
+import pandas as pd
 import datetime
 import getpass
 
+
 def try_me():
-    print("\033[92m_________________{:>65}")
+    print("\033[92m{:>65}".format(f'_________________'))
     print("")
-    print(f"{moo():>70}")
-    print("___________  ____{:>65}")
-    print("           \\/    \033[0m{:>65}")
+    print(f"{moo():>70}".format())
+    print("{:>65}".format(f'___________  ____'))
+    print("{:>65}\033[0m".format(f'           \/    '))
     print("""
                                  .a@@@@@a.     ,a@@@@@@@@a,     .a@@@@@a. 
                               .@@@@@@@@@@@a,a@@@@@@@@@@@@@@a,a@@@@@@@@@@@. 
